@@ -1,0 +1,67 @@
+.navBar {
+    
+    background-color: #041f3d;
+    height: 100px;
+    align-items: center;
+    display: flex;
+    justify-content: right;
+    position: fixed; /* Make the navbar fixed at the top */
+    top: 0; /* Place the navbar at the top of the viewport */
+    left: 0;
+    right: 0;
+    z-index: 1000; /* Ensure the navbar is above other content */
+    /* Add any other styling you want for the fixed navbar */
+    
+}
+
+.navBar h1 {
+    display: block;
+    list-style: none;
+    color: #ececec;
+    font-family: 'Franklin Gothic Medium', 'Arial', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    justify-content: left;
+}
+
+.spacer {
+    width: 150px;
+}
+
+.navBar ul {
+    align-items: center;
+    list-style: none;
+    display: flex;
+}
+
+.navBar button{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial', Arial, sans-serif;
+    color: #ececec;
+    text-decoration: none;
+    padding: 5px;
+    background-color: #041f3d;
+    border: 4px solid #041f3d;
+    margin: 10px;
+}
+
+.navBar button:hover{
+    border: 4px solid #ffd100;
+    background-color: #041f3d;
+    color: #ffd100;
+    border-radius: 9px;
+    animation-name: drop;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes drop {
+    0% {
+        transform: translate3d(0px, 0px, 0px);
+      }
+      100% {
+        transform: translate3d(0px, 10px, 0px);
+      }
+  }
