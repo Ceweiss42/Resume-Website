@@ -9,9 +9,10 @@ body {
 .navBar {
     background-color: #041f3d;
     height: 100px;
+    width: 100%;
     align-items: center;
     display: flex;
-    justify-content: right;
+    justify-content: space-between;
     position: fixed; /* Make the navbar fixed at the top */
     top: 0; /* Place the navbar at the top of the viewport */
     left: 0;
@@ -40,10 +41,11 @@ body {
     font-weight: bold;
     font-size: 50px;
     justify-content: left;
+    padding-left: 5%;
 }
 
 .spacer {
-    width: 150px;
+    flex-grow: 1;
 }
 
 .navBar ul {
@@ -67,7 +69,7 @@ body {
 .navBar button:hover{
     border: 4px solid #ffd100;
     background-color: #041f3d;
-    color: #ffd100;
+    color: #ffd100 !important;
     border-radius: 9px;
     animation-name: drop;
     animation-duration: 0.5s;
@@ -117,4 +119,34 @@ flex: 1; /* Allow text container to grow and fill available space */
     color: #ececec;
     font-family: 'Franklin Gothic Medium', 'Arial', Arial, sans-serif;
     font-size: 16px;
+    margin: 20px;
+}
+
+.tabButton {
+    width: 15%;
+    height: 7%;
+    color: #ececec;
+    background-color: #041f3d;
+    border: 4px solid #ececec;
+    border-radius: 9px;
+    margin: 4%;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.tabButton:hover {
+    background-color: #0c3768;
+}
+
+.button-holder {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    margin-top: -100px;
+}
+
+.youtube-video {
+    border: 8px solid #ffd100;
 }
