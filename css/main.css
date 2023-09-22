@@ -1,5 +1,12 @@
+body {
+    background-color: #171717;
+}
+
+.navBar-wrapper {
+    position: relative;
+}
+
 .navBar {
-    
     background-color: #041f3d;
     height: 100px;
     align-items: center;
@@ -10,9 +17,20 @@
     left: 0;
     right: 0;
     z-index: 1000; /* Ensure the navbar is above other content */
+    transition: transform 0.3s ease-in-out; /* Add a smooth transition effect */
+    transform: translateY(0); /* Initially visible */
+  /* Add any other styling you want for the fixed navbar */
     /* Add any other styling you want for the fixed navbar */
-    
 }
+
+.space {
+    margin-top: 130px;
+}
+
+.active{
+    color: #E30118 !important;
+}
+
 
 .navBar h1 {
     display: block;
@@ -64,4 +82,39 @@
       100% {
         transform: translate3d(0px, 10px, 0px);
       }
-  }
+}
+
+.content {
+    background-color: #041f3d;
+    margin: 100px;
+    display: flex;
+    align-items: center; /* Center vertically within the container */
+}
+
+.profile {
+    width: 400px;
+    border: 8px solid #ffd100;
+    margin: 40px;
+}
+  
+.image-container {
+flex: 0 0 auto; /* Prevent image from growing or shrinking */
+margin-right: 20px; /* Adjust the margin as needed for spacing */
+}
+
+.text-container {
+flex: 1; /* Allow text container to grow and fill available space */
+}
+
+.content h3 {
+    color: #ececec;
+    font-family: 'Franklin Gothic Medium', 'Arial', Arial, sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+.content p {
+    color: #ececec;
+    font-family: 'Franklin Gothic Medium', 'Arial', Arial, sans-serif;
+    font-size: 16px;
+}
