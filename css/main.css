@@ -150,3 +150,7 @@ flex: 1; /* Allow text container to grow and fill available space */
 .youtube-video {
     border: 8px solid #ffd100;
 }
+
+.extra {
+    margin-bottom: -50px !important;
+}
