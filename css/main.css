@@ -154,3 +154,9 @@ flex: 1; /* Allow text container to grow and fill available space */
 .extra {
     margin-bottom: -50px !important;
 }
+
+.blueLink {
+    color: #36b8d8 !important;
+    font-weight: bold;
+    text-decoration: none;
+}
