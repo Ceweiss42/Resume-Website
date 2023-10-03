@@ -119,6 +119,34 @@
         </div>
     </div>
 
+    <div id = "5" class="content">
+        <div class="text-container">
+            <h3>Encrypted Messaging Service</h3>
+            <p>
+                This project grew from an exploration into the world of encryption in one of my college courses.
+                When introduced to Public-Private key encryption, I became enthralled in how it worked. I read up
+                on the system and got to work creating my own private messaging system using PGP. It encrypts 
+                messages and sends them over network to a user-input destination. The computer at that destination then
+                decrypts and reads the message, and can respond with the same pathway back to the original computer. 
+                All messages are immediately deleted on completion of the program.<br><br>
+
+                To provide more detail, the messaging service provides a way for users to communicate with one-another in 
+                a secure way. Some setup is required, such as downloading the public key to the recipient, as that key is 
+                needed to encrypt the message. Once the key is downloaded, the user simply typed their destination (a port for
+                the message to go to), and hits enter. The program will create a flask server at the user's end, encrypt the message,
+                and send it over the internet to the flask server running on the recipient's end. When a message is received,
+                the contents are decrypted and displayed to the console. <br><br>
+
+                I am currently working on an intuitive UI to the application, as well as a way to automate the key-grabbing 
+                process, to ensure usability for even the least tech-fluent people. The github for the project can be found 
+                <a href="https://github.com/Ceweiss42/EncryptedMessenger" >here</a>.
+            </p>
+        </div>
+        <div class="image-container">
+            <img class = "profile" src="https://i0.wp.com/primefactors.com/wp-content/uploads/2020/01/open-pgp-icon.png"/>
+        </div>
+    </div>
+
     <div class="button-holder">
         <button class="tabButton" onclick="switchLeft()">&lt;</button>
         <button class="tabButton" onclick="switchRight()">&gt;</button>

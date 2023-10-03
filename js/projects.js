@@ -6,7 +6,7 @@ function start()
 
 let currtab = 0;
 
-let tabs = ["1", "2", "3", "4"];
+let tabs = ["1", "2", "3", "4", "5"];
 
 function invis()
 {
@@ -14,6 +14,7 @@ function invis()
     document.getElementById("2").style.display = "none";
     document.getElementById("3").style.display = "none";
     document.getElementById("4").style.display = "none";
+    document.getElementById("5").style.display = "none";
   
 }
 
@@ -37,7 +38,7 @@ function switchRight()
     currtab++;
     
     
-    if (currtab > 3)
+    if (currtab > 4)
     {
         currtab = 0;
     }
@@ -50,7 +51,7 @@ function switchLeft()
     currtab--;
     if (currtab < 0)
     {
-        currtab = 3;
+        currtab = 4;
     }
 
 
