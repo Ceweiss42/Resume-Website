@@ -5,7 +5,6 @@ function start()
 }
 
 let currtab = 0;
-
 let tabs = ["1", "2", "3", "4", "5"];
 
 function invis()
