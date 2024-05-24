@@ -1,6 +1,6 @@
 
 import Header from "../components/Header.js";
-import Me from "../images/Me.JPG";
+import Me from "../images/spotter.png";
 import Kart from "../images/Kart.jpg";
 import { useEffect, useState } from "react";
 

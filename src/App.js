@@ -3,7 +3,7 @@
 import './App.css';
 import React from 'react';
 import ReactDOM from "react-dom/client";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 
 import HomePage from "./pages/HomePage.js";
 import ResumePage from "./pages/ResumePage";
@@ -18,17 +18,15 @@ export default function App() {
     //build the app visually
     return (
         <>
-        <BrowserRouter>
+        <HashRouter>
             <Routes>
-                <Route path="/">
-                    <Route index element={<HomePage />} />
-                    <Route path="/resume" element={<ResumePage />} />
-                    <Route path="/work" element={<WorkPage />} />
-                    <Route path="/contact" element={<ContactPage />} />
-                    <Route path="/projects" element={<ProjectsPage />} />
-                </Route>
+                <Route path="/" element={<HomePage />} />
+                <Route path="/resume" element={<ResumePage />} />
+                <Route path="/work" element={<WorkPage />} />
+                <Route path="/contact" element={<ContactPage />} />
+                <Route path="/projects" element={<ProjectsPage />} />
             </Routes>
-        </BrowserRouter>
+        </HashRouter>
     </>
     );
 }
