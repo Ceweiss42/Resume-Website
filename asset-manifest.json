@@ -1,23 +1,21 @@
 {
   "files": {
-    "main.css": "/Resume-Website/static/css/main.fc1685c2.css",
-    "main.js": "/Resume-Website/static/js/main.3793d389.js",
+    "main.css": "/Resume-Website/static/css/main.6c442a79.css",
+    "main.js": "/Resume-Website/static/js/main.5e5363b9.js",
     "static/js/453.24148860.chunk.js": "/Resume-Website/static/js/453.24148860.chunk.js",
-    "static/media/Pitstop.JPG": "/Resume-Website/static/media/Pitstop.0d3bc50022a4c65d0fcd.JPG",
-    "static/media/Car.JPG": "/Resume-Website/static/media/Car.09405ac7a55c1e685b22.JPG",
     "static/media/Me.JPG": "/Resume-Website/static/media/Me.fb955064919f70830152.JPG",
     "static/media/waldorf.jpg": "/Resume-Website/static/media/waldorf.ce3fa7b218beb8af317e.jpg",
     "static/media/Kart.jpg": "/Resume-Website/static/media/Kart.02a3600c2cbaa247e447.jpg",
-    "static/media/tablework.jpeg": "/Resume-Website/static/media/tablework.9df1eabe80bd44dc577f.jpeg",
     "static/media/spotter.png": "/Resume-Website/static/media/spotter.3828ef8e17e4cba37497.png",
-    "static/media/CW - Resume.pdf": "/Resume-Website/static/media/CW - Resume.bbd8a03e1d914576796a.pdf",
+    "static/media/data.png": "/Resume-Website/static/media/data.0c5437ac25b9be6fae08.png",
+    "static/media/CW - Resume.pdf": "/Resume-Website/static/media/CW - Resume.e0c1a7cc0cff8b16fa23.pdf",
     "index.html": "/Resume-Website/index.html",
-    "main.fc1685c2.css.map": "/Resume-Website/static/css/main.fc1685c2.css.map",
-    "main.3793d389.js.map": "/Resume-Website/static/js/main.3793d389.js.map",
+    "main.6c442a79.css.map": "/Resume-Website/static/css/main.6c442a79.css.map",
+    "main.5e5363b9.js.map": "/Resume-Website/static/js/main.5e5363b9.js.map",
     "453.24148860.chunk.js.map": "/Resume-Website/static/js/453.24148860.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fc1685c2.css",
-    "static/js/main.3793d389.js"
+    "static/css/main.6c442a79.css",
+    "static/js/main.5e5363b9.js"
   ]
 }
