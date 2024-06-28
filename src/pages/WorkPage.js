@@ -2,10 +2,8 @@
 import Header from "../components/Header.js";
 import { useEffect, useState } from "react";
 
+import Me from "../images/Me.JPG";
 import Waldorf from "../images/waldorf.jpg";
-import Car from "../images/Car.JPG";
-import Table from "../images/tablework.jpeg";
-import Pit from "../images/Pitstop.JPG";
 import "./HomePage.css";
 
 
@@ -14,14 +12,34 @@ export default function WorkPage() {
   const [cont, setCont] = useState(workA);
   const [page, setPage] = useState(0);
   
-  const switchCont = () => {
+  const switchContRight = () => {
     if (page == 0) {
       setCont(workB)
       setPage(1)
     }
+    else if(page == 1) {
+      setCont(workC)
+      setPage(2)
+    }
     else {
       setCont(workA);
       setPage(0);
+    }
+  
+  }
+
+  const switchContLeft = () => {
+    if (page == 0) {
+      setCont(workC)
+      setPage(2)
+    }
+    else if(page == 1) {
+      setCont(workA)
+      setPage(0)
+    }
+    else {
+      setCont(workB);
+      setPage(1);
     }
   
   }
@@ -36,8 +54,8 @@ export default function WorkPage() {
         </div>
 
         <div className ="button-holder">
-          <button className ="tabButton" onClick={switchCont}>&lt;</button>
-          <button className ="tabButton" onClick={switchCont}>&gt;</button>
+          <button className ="tabButton" onClick={switchContLeft}>&lt;</button>
+          <button className ="tabButton" onClick={switchContRight}>&gt;</button>
         </div>
       </div>
     )
@@ -104,5 +122,26 @@ export default function WorkPage() {
                 <img className = "profile" src={Waldorf}/>
             </div>
         </div>
+    )
+  }
+
+  function workC()
+  {
+    return(
+      <div className="content">
+        <div className ="image-container">
+            <img className = "profile" src={Me}/>
+        </div>
+        <div className ="text-container">
+            <h3>Dale Coyne Racing</h3>
+            <p>While only there for a handful of weekends, I had the opportunity to shadow and help with the data systems on the car. Most of
+               my time was spent shadowing and learning the ins and outs of the car, team and everything else that went on during a race weekend. <br/><br/>
+
+               While unable to join the team fulltime during the season, I learned a lot of valuable information that can be translated to many
+               different situations and encounters.
+                
+            </p>
+        </div>
+      </div>
     )
   }

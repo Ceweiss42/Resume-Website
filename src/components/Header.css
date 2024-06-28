@@ -104,6 +104,18 @@ body {
     border: 8px solid #ffd100;
     margin: 40px;
 }
+
+.wide-image {
+    width: 800px;
+    border: 8px solid #ffd100;
+    margin: 40px;
+}
+
+.tall-image {
+    height:500px;
+    border: 8px solid #ffd100;
+    margin: 40px;
+}
   
 .image-container {
 flex: 0 0 auto; /* Prevent image from growing or shrinking */

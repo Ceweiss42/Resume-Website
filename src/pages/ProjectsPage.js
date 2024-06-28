@@ -2,6 +2,7 @@
 import Header from "../components/Header.js";
 import Me from "../images/spotter.png";
 import Kart from "../images/Kart.jpg";
+import dataV from "../images/data.png";
 import { useEffect, useState } from "react";
 
 export default function ProjectsPage() {
@@ -27,15 +28,19 @@ export default function ProjectsPage() {
         setCont(projectE);
       }
       else if (page == 4) {
+        setPage(5)
+        setCont(projectF);
+      }
+      else if (page == 5) {
         setPage(0)
-        setCont(projectA);
+        setCont(projectA)
       }
     }
 
     const switchContLeft = () => {
       if (page == 0) {
-        setPage(4)
-        setCont(projectE);
+        setPage(5)
+        setCont(projectF);
       }
       else if (page == 1) {
         setPage(0)
@@ -47,11 +52,15 @@ export default function ProjectsPage() {
       }
       else if (page == 3) {
         setPage(2)
-        setCont(projectD);
+        setCont(projectC);
       }
       else if (page == 4) {
         setPage(3)
         setCont(projectD);
+      }
+      else if (page == 5) {
+        setPage(4)
+        setCont(projectE);
       }
     }
 
@@ -137,7 +146,7 @@ export default function ProjectsPage() {
     return (
       <div className="content">
         <div className="image-container">
-            <img class = "profile" src={Me}/>
+            <img class = "tall-image" src={Me}/>
         </div>
         <div className="text-container">
             <h3>Sportscar Hunter App</h3>
@@ -219,6 +228,31 @@ export default function ProjectsPage() {
         </div>
         <div className="image-container">
             <img class = "profile" src="https://i0.wp.com/primefactors.com/wp-content/uploads/2020/01/open-pgp-icon.png"/>
+        </div>
+      </div>
+    )
+  }
+
+  function projectF()
+  {
+    return(
+      <div className="content">
+        <div className="text-container">
+            <h3>Data Visualizer</h3>
+            <p>
+                After spending a race weekend with Dale Coyne Racing, I took what I learned in data analysis and spent some time making
+                my own data visualization software. <br/><br/>
+
+                The software is largely customizable, allowing custom colors, datapoints, graph size and layout. It also automatically
+                uploads your data to a csv file for easy exporting later on. For ease of use, the software opens a port where you can
+                send your realtime telemetry data for visualization while the car is on track.<br/><br/>
+
+                While still a work in progress, the software is currently being used by some RC car teams in the
+                United States branch of the H2GP competition for trackside data analysis and insights.
+            </p>
+        </div>
+        <div className="image-container">
+            <img class = "wide-image" src={dataV}/>
         </div>
       </div>
     )
