@@ -83,7 +83,7 @@ export default function ProjectsPage() {
     )
   }
 
-  function projectA()
+  function projectC()
   {
     return(
       <div className="content">
@@ -141,7 +141,7 @@ export default function ProjectsPage() {
     )
   }
 
-  function projectC()
+  function projectD()
   {
     return (
       <div className="content">
@@ -172,7 +172,7 @@ export default function ProjectsPage() {
     )
   }
 
-  function projectD()
+  function projectE()
   {
     return (
       <div className="content">
@@ -200,7 +200,7 @@ export default function ProjectsPage() {
     )
   }
 
-  function projectE()
+  function projectF()
   {
     return(
       <div className="content">
@@ -233,12 +233,12 @@ export default function ProjectsPage() {
     )
   }
 
-  function projectF()
+  function projectA()
   {
     return(
       <div className="content">
         <div className="text-container">
-            <h3>Data Visualizer</h3>
+            <h3>Data Toolbox</h3>
             <p>
                 After spending a race weekend with Dale Coyne Racing, I took what I learned in data analysis and spent some time making
                 my own data visualization software. <br/><br/>
@@ -252,7 +252,7 @@ export default function ProjectsPage() {
             </p>
         </div>
         <div className="image-container">
-            <img class = "wide-image" src={dataV}/>
+            <iframe id="youtube-video" class = "youtube-video" width="560" height="315" src="https://www.youtube.com/embed/pZGrTrl50hg?si=5799HZuqySRzUvUA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
       </div>
     )
