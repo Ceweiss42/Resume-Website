@@ -1,21 +1,31 @@
 {
   "files": {
-    "main.css": "/Resume-Website/static/css/main.6c442a79.css",
-    "main.js": "/Resume-Website/static/js/main.46abf461.js",
+    "main.css": "/Resume-Website/static/css/main.f6d62d1e.css",
+    "main.js": "/Resume-Website/static/js/main.1986ff16.js",
     "static/js/453.24148860.chunk.js": "/Resume-Website/static/js/453.24148860.chunk.js",
+    "static/media/track.png": "/Resume-Website/static/media/track.15a0aa0713212a092562.png",
     "static/media/Me.JPG": "/Resume-Website/static/media/Me.fb955064919f70830152.JPG",
-    "static/media/waldorf.jpg": "/Resume-Website/static/media/waldorf.ce3fa7b218beb8af317e.jpg",
     "static/media/Kart.jpg": "/Resume-Website/static/media/Kart.02a3600c2cbaa247e447.jpg",
+    "static/media/tablework.jpeg": "/Resume-Website/static/media/tablework.9df1eabe80bd44dc577f.jpeg",
     "static/media/spotter.png": "/Resume-Website/static/media/spotter.3828ef8e17e4cba37497.png",
-    "static/media/data.png": "/Resume-Website/static/media/data.0c5437ac25b9be6fae08.png",
+    "static/media/darktrack.jpg": "/Resume-Website/static/media/darktrack.165c4bf3254e54b0ccde.jpg",
+    "static/media/racing.jpg": "/Resume-Website/static/media/racing.950383561d009eea85fe.jpg",
+    "static/media/pits.jpg": "/Resume-Website/static/media/pits.259f5b76899aacb8fae1.jpg",
     "static/media/CW - Resume.pdf": "/Resume-Website/static/media/CW - Resume.e0c1a7cc0cff8b16fa23.pdf",
+    "static/media/racingnight.jpg": "/Resume-Website/static/media/racingnight.0beaa94b543e9da801b1.jpg",
+    "static/media/porsche.jpg": "/Resume-Website/static/media/porsche.f00165a5ad30a62ca7b4.jpg",
+    "static/media/peugotnight.jpg": "/Resume-Website/static/media/peugotnight.2548502c4d727cb29ef0.jpg",
+    "static/media/95night.jpg": "/Resume-Website/static/media/95night.03b68efe0a49b466591a.jpg",
+    "static/media/peugot.jpg": "/Resume-Website/static/media/peugot.7c84b90edad4836ab04f.jpg",
+    "static/media/rain.jpg": "/Resume-Website/static/media/rain.0ecbed1136cfb1ea349d.jpg",
+    "static/media/cadillac.jpg": "/Resume-Website/static/media/cadillac.8ee250c3d3e9cdc1d634.jpg",
     "index.html": "/Resume-Website/index.html",
-    "main.6c442a79.css.map": "/Resume-Website/static/css/main.6c442a79.css.map",
-    "main.46abf461.js.map": "/Resume-Website/static/js/main.46abf461.js.map",
+    "main.f6d62d1e.css.map": "/Resume-Website/static/css/main.f6d62d1e.css.map",
+    "main.1986ff16.js.map": "/Resume-Website/static/js/main.1986ff16.js.map",
     "453.24148860.chunk.js.map": "/Resume-Website/static/js/453.24148860.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6c442a79.css",
-    "static/js/main.46abf461.js"
+    "static/css/main.f6d62d1e.css",
+    "static/js/main.1986ff16.js"
   ]
 }
