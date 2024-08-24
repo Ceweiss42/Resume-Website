@@ -38,13 +38,6 @@ export default function HomePage() {
               
             </div>
             </ParallaxLayer>
-
-            <ParallaxLayer offset={0.9} speed={5} factor={1}>
-            <div className="centered">
-              <p>Scroll Down</p>
-              
-            </div>
-            </ParallaxLayer>
             
           <ParallaxLayer offset={2} speed={1} factor={1}
           style={{
@@ -54,7 +47,7 @@ export default function HomePage() {
           }}>
           </ParallaxLayer>
 
-          <ParallaxLayer offset={.9} speed={0.4}>
+          <ParallaxLayer offset={1} speed={0.4}>
               <div className="centered textbox pushdown">
                 <p className="maincontent">One of my earliest memories is sitting alongside my mother as we watched my dad race around a go-kart track. 
                   I remember being enthralled at how the karts swerved around every turn, and immediately curiosity sprung out. At the age of 5, my life goal was to become 
@@ -84,7 +77,7 @@ export default function HomePage() {
                 United States branch of the H2GP competition for trackside data analysis and insights.
                 </p>
                 <div className="image-container">
-                    <iframe id="youtube-video" class = "youtube-video" width="560" height="315" src="https://www.youtube.com/embed/pZGrTrl50hg?si=5799HZuqySRzUvUA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <iframe id="youtube-video" class = "youtube youtube-video" src="https://www.youtube.com/embed/pZGrTrl50hg?si=5799HZuqySRzUvUA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>
               </div>
           </ParallaxLayer>
@@ -100,10 +93,10 @@ export default function HomePage() {
 
           </ParallaxLayer>
 
-          <ParallaxLayer  offset={2.99} speed={0.1}>
+          <ParallaxLayer  offset={3} speed={0.1}>
           <div className="centered textbox slideright">
                 <div className="image-container-right">
-                    <iframe id="youtube-video" class = "youtube-video" width="560" height="315" src="https://www.youtube.com/embed/XJI0XePPJJs?si=hqAaj4V6RwFlC8fN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <iframe id="youtube-video" class = "youtube youtube-video" src="https://www.youtube.com/embed/XJI0XePPJJs?si=hqAaj4V6RwFlC8fN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>
                 <p className="maincontent">
                   One of my exciting projects revolves around enhancing my racing experience in Assetto Corsa with a custom H-pattern gear shift.
@@ -119,7 +112,7 @@ export default function HomePage() {
               </div>
           </ParallaxLayer>
 
-          <ParallaxLayer offset={3.9} speed={.1}>
+          <ParallaxLayer offset={4} speed={.1}>
             <div className="centered textbox">
               <img class = "tall-image image-container-right" src={Me}/>
               <p className="maincontent">One of my most enjoyable and impressive projects has to be the Sportscar Hunter App. 
@@ -172,11 +165,11 @@ export default function HomePage() {
                 and send it over the internet to the flask server running on the recipient's end. When a message is received,
                 the contents are decrypted and displayed to the console.
             </p>
-            <img className="image-container-right" width={200} height={200} src="https://i0.wp.com/primefactors.com/wp-content/uploads/2020/01/open-pgp-icon.png"/>
+            <img className="image-container-right sq" src="https://i0.wp.com/primefactors.com/wp-content/uploads/2020/01/open-pgp-icon.png"/>
             </div>
           </ParallaxLayer>
 
-          <ParallaxLayer offset={5.9} speed={.1}>
+          <ParallaxLayer offset={6} speed={.1}>
             <div className="centered textbox">
               <p className="maincontent">My standout engineering project is a custom Go Kart designed for speed and innovation. Powered by a 1.8kW electric motor, it 
                 can reach thrilling speeds of up to 35mph (56 kph). What sets this project apart is its DIY approach, built using readily 
@@ -230,7 +223,7 @@ export default function HomePage() {
                 felt both efficient and intuitive.
                 
             </p>
-              <img className="image-container-right" width={400} height={400} src="https://repvue.imgix.net/a9yxc48y3ay5dm2udzwizc2bdyph"/>
+              <img className="image-container-right sq"  src="https://repvue.imgix.net/a9yxc48y3ay5dm2udzwizc2bdyph"/>
             </div>
           </ParallaxLayer>
 
@@ -246,6 +239,7 @@ export default function HomePage() {
           <ParallaxLayer offset={8} speed={.1}>
             <h1 className="centered SiteSubTitle">Work Experience</h1>
             <div className="centered textbox">
+            <img className="image-container-right sqthree" src={Self}/>
               <div>
                 <h1>Dale Coyne Racing</h1>
               <p className="maincontent padRight">While only there for a handful of weekends, I had the opportunity to shadow and help with the data systems on the car. Most of
@@ -257,7 +251,7 @@ export default function HomePage() {
             </p>
               </div>
               
-              <img className="image-container-right" width={400} height={400} src={Self}/>
+              
             </div>
           </ParallaxLayer>
 
@@ -272,7 +266,7 @@ export default function HomePage() {
 
           <ParallaxLayer offset={9} speed={.1}>
             <div className="centered textbox">
-            <img className="image-container-left" width={400} height={300} src={Waldorf}/>
+            <img className="image-container-left sqthree" src={Waldorf}/>
               <div>
                 <h1>Waldorf RC Racing</h1>
               <p className="maincontent padLeft">I've had the distinct honor of serving as the head coach of a dynamic
@@ -320,7 +314,7 @@ export default function HomePage() {
             </p>
               </div>
               
-              <img className="image-container-right" width={400} height={250} src={"https://location-logos-production.s3.amazonaws.com/2512934359284067954/2708/logo20211103-15602-1th2w4n.jpeg"}/>
+              <img className="image-container-right sqthree"  src={"https://location-logos-production.s3.amazonaws.com/2512934359284067954/2708/logo20211103-15602-1th2w4n.jpeg"}/>
             </div>
           </ParallaxLayer>
 

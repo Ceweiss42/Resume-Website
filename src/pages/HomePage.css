@@ -16,11 +16,11 @@ body {
 }
 
 .SiteTitle {
-    font-size: 150px;
+    font-size: 10em;
 }
 
 .SiteSubTitle {
-    font-size: 50px;
+    font-size: 3em;
 }
 
 .centered {
@@ -43,11 +43,16 @@ body {
 }
 
 .maincontent {
-    font-size: 30px;
+    font-size: 1em;
 }
 
 .image-container{
     margin-left: 3%;
+}
+
+.youtube {
+    width: 30vw;
+    height: 17vw;
 }
 
 .pushdown {
@@ -55,8 +60,7 @@ body {
 }
 
 .Kart {
-    height: 600px;
-    width: 800px;
+    width:40vw;
     margin-left: 15%;
 }
 
@@ -70,13 +74,25 @@ body {
     margin-right: 5%;
 }
 
+.sqtwo {
+    width: 20%;
+}
+
+.sq {
+    width: 15vw;
+}
+
 .image-container-right{
     margin-right: 3% !important;
 }
 
 .tall-image {
-    height:400px;
-    width: 200px;
+    height:40vh;
+    width: 20vw;
+}
+
+.sqthree {
+    width: 30vw;
 }
 
 .padRight {
