@@ -242,11 +242,12 @@ export default function HomePage() {
             <img className="image-container-right sqthree" src={Self}/>
               <div>
                 <h1>Dale Coyne Racing</h1>
-              <p className="maincontent padRight">While only there for a handful of weekends, I had the opportunity to shadow and help with the data systems on the car. Most of
-               my time was spent shadowing and learning the ins and outs of the car, team and everything else that went on during a race weekend. <br/><br/>
+              <p className="maincontent padRight">I currently work as the Lead Systems Engineer for Dale Coyne Racing in Indycar. Starting in October 2024, I quickly learned the
+              ins and outs of the car on the electronics side. I programmed custom, inhouse software for various parts of the team's workflow, and took on two interns at the beginning
+                  of the season. I also participated in strategy discussions both at the shop and trackside to improve on-track performance. <br/><br/>
 
-               While unable to join the team fulltime during the season, I learned a lot of valuable information that can be translated to many
-               different situations and encounters.
+               Working hand-in-hand with both the #18 and #51 crews, I ensured the carside electroncis were working, accurate, and efficient. I also collaborated with various
+                  members from HRC and Cosworth to ensure a reliable system was in place.
                 
             </p>
               </div>
